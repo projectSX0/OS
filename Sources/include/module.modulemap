@@ -1,0 +1,4 @@
+module OS {
+    header "os.h"
+    link "OS"
+}
