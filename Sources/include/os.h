@@ -10,11 +10,9 @@
 #   include <netpacket/packet.h>
 #   include <net/ethernet.h>
 #   include <net/if_packet.h>
-#   include <linux/if_ether.h>
-#   include <linux/if_arp.h>
 #   define AF_LINK AF_PACKET
 
-typedef sockaddr_ll sockaddr_dl
+typedef struct sockaddr_ll sockaddr_dl;
 #endif
 
 #ifdef __linux__
