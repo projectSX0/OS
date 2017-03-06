@@ -1,4 +1,4 @@
-module OSHeader {
+module _xlibc {
     header "os.h"
-    link "OSHeader"
+    link "_xlibc"
 }
