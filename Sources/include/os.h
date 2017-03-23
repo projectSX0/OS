@@ -22,5 +22,6 @@ typedef struct sockaddr_ll sockaddr_dl;
 #include <sys/ioctl.h>
 #include <sys/inotify.h>
 #include <sys/eventfd.h>
+#include <sys/file.h>
 
 #endif
